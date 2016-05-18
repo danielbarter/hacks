@@ -1,0 +1,24 @@
+name:                hillary
+version:             0.1.0.0
+synopsis:            Simple project template from stack
+description:         Please see README.md
+homepage:            http://github.com/githubuser/hillary#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Author name here
+maintainer:          example@example.com
+copyright:           2016 Author Here
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable hillary
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5,
+                       cassava == 0.*,
+                       attoparsec == 0.*,
+                       bytestring == 0.*,
+                       vector == 0.*,
+                       unordered-containers == 0.*
